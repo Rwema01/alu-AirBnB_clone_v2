@@ -86,4 +86,3 @@ class ConsoleTestCase(unittest.TestCase):
             self.console.onecmd('show State {}'.format(state_id))
         output = self.stdout.getvalue()[:-1]
         self.assertIn("Texas", output)
-
